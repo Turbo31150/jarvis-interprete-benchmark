@@ -12,6 +12,8 @@
 | Vitesse | **20,2× temps réel** (GPU) |
 | Coût | **0-token, 100 % local** |
 | Modèle | faster-whisper `small` (int8_float16) |
+| **BLEU (traduction parole fr→en)** | **17,2** (30 clips ; BLEU sous-estime, réf reformulées) |
+
 
 *(échantillon de 20 clips : 14,6 % — l'échantillon de 50 clips réduit la variance et place le résultat dans la fourchette publiée du modèle `small`.)*
 
