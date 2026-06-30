@@ -8,10 +8,12 @@
 ## 📊 Résultat (dataset officiel Google FLEURS, `fr_fr`)
 | Métrique | Valeur |
 |---|---|
-| **WER** | **14,56 %** (20 clips, split validation) |
-| Vitesse | **19,5× temps réel** (GPU) |
+| **WER** | **10,51 %** (50 clips, split validation) |
+| Vitesse | **20,2× temps réel** (GPU) |
 | Coût | **0-token, 100 % local** |
 | Modèle | faster-whisper `small` (int8_float16) |
+
+*(échantillon de 20 clips : 14,6 % — l'échantillon de 50 clips réduit la variance et place le résultat dans la fourchette publiée du modèle `small`.)*
 
 🎥 **Vidéo de preuve** : [`preuve-benchmark-FLEURS.mp4`](preuve-benchmark-FLEURS.mp4) (capture du benchmark, scores à l'image).
 
